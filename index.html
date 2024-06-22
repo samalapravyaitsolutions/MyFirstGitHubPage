@@ -7,9 +7,12 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-image: url('background-image.jpg'); /* Replace 'background-image.jpg' with your actual image file */
+            background-size: cover; /* Cover the entire body with the background image */
+            background-position: center; /* Center the background image */
             text-align: center;
-            padding: 50px;
+            padding: 150px;
+            margin: 0; /* Remove default margin to ensure full coverage of background */
         }
         h1 {
             font-size: 3em;
@@ -20,29 +23,35 @@
             font-size: 1.5em;
             color: #666;
         }
+        /* Navigation styling */
         nav {
-            margin-top: 20px;
+            position: absolute;
+            top: 20px;
+            right: 50px; /* Adjust as needed */
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+            padding: 10px 20px; /* Padding inside the navigation bar */
+            border-radius: 5px; /* Rounded corners */
         }
         nav a {
             text-decoration: none;
-            color: #333;
+            color: #fff; /* Text color */
             margin: 0 15px;
             font-size: 1.2em;
         }
         nav a:hover {
-            color: #007bff;
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Pravya IT Solutions</h1>
-    <p>Your go-to partner for IT solutions.</p>
-
     <nav>
         <a href="#">Home</a>
         <a href="#">About Us</a>
         <a href="#">Our Menu</a>
         <a href="#">Contact Us</a>
     </nav>
+
+    <h1>Welcome to Pravya IT Solutions</h1>
+    <p>Your go-to partner for IT solutions.</p>
 </body>
 </html>
